@@ -11,8 +11,7 @@ Usage
 How to use your application, including any user interfaces, dashboards, or command line interfaces.
 
 API Documentation
-If your application provides an API, include documentation for how to use it.
-
+Api documentation on the saas coming soon
 Billing and Pricing
 Information about how your application is billed and priced, including any subscription plans or payment methods accepted.
 
