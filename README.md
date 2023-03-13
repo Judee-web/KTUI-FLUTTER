@@ -2,7 +2,7 @@ Application Name
 This is a simple frontend saas project with flutter
 
 Features
-List of the features that your application provides. comming soon
+List of the features that your application provides. Coming Soon
 
 Getting Started
 Instructions for how to sign up and start using your application.
