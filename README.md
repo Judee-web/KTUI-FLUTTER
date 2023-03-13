@@ -1,16 +1,30 @@
-# flutter_application_1
+Application Name
+This is a simple frontend saas project with flutter
 
-A new Flutter project.
+Features
+List of the features that your application provides. comming soon
 
-## Getting Started
+Getting Started
+Instructions for how to sign up and start using your application.
 
-This project is a starting point for a Flutter application.
+Usage
+How to use your application, including any user interfaces, dashboards, or command line interfaces.
 
-A few resources to get you started if this is your first Flutter project:
+API Documentation
+If your application provides an API, include documentation for how to use it.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Billing and Pricing
+Information about how your application is billed and priced, including any subscription plans or payment methods accepted.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Security
+Information about the security measures you have in place to protect user data and transactions.
+
+Support
+Information about how to contact your support team for help with your application.
+
+Roadmap
+Future plans for features and updates to your application. currently writing
+
+Acknowledgments
+
+Currently writting

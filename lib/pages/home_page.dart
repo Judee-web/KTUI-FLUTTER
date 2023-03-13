@@ -18,7 +18,8 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       appBar: AppBar( title: Text('My Title', style: TextStyle(
          fontWeight: FontWeight.bold,
-         color: Color.fromARGB(255, 253, 255, 254)
+         color: Color.fromARGB(255, 253, 255, 254),
+         textA
          )),
       backgroundColor:Color.fromARGB(255, 173, 25, 25)
        ),
