@@ -5,7 +5,8 @@ Features
 List of the features that your application provides. Coming Soon
 
 Getting Started
-<h2>Sample Image of the app in progress</h>
+<h2>Sample Image of the app in progress</h2>
+<br>
 <div>
 <img src="assets/images/image1.png" height="700px" width="300px" alt="flutter_app"/>
 </div>
