@@ -3,6 +3,8 @@
 
 import 'package:flutter/material.dart';
 
+import '../utils/smiley_faces.dart';
+
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -134,8 +136,78 @@ class _HomePageState extends State<HomePage> {
             ),
             //smileyEmogji goes here
             Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
+
+                Column(
+                  children: [
+
+                    //angry Face
+                    SmileyFace(
+                      smileyFace: "😊",
+                    ),
+                    SizedBox(
+                        height: 8,
+                      ),
+
+                      Text(
+                        'Lovely Face',
+                        style: TextStyle(
+                          color: Colors.white,
+                        ),
+                      )
+
                 
+                  ],
+
+                ),
+               //Happy Face
+                Column(
+                  children: [
+
+                    //angry Face
+                    SmileyFace(
+                      smileyFace: "😉",
+                    ),
+                    SizedBox(
+                        height: 8,
+                      ),
+
+                      Text(
+                        'Winky Face',
+                        style: TextStyle(
+                          color: Colors.white,
+                        ),
+                      )
+
+                
+                  ],
+
+                ),
+
+                //Lovely Face
+            Column(
+                  children: [
+
+                    //angry Face
+                    SmileyFace(
+                      smileyFace: "😃",
+                    ),
+                    SizedBox(
+                        height: 8,
+                      ),
+
+                      Text(
+                        'Happy Face',
+                        style: TextStyle(
+                          color: Colors.white,
+                        ),
+                      )
+
+                
+                  ],
+
+                )
               ],
             )
 

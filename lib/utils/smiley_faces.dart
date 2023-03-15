@@ -4,7 +4,14 @@ import 'package:flutter/material.dart';
 
 
 class SmileyFace extends StatelessWidget {
-  const SmileyFace({Key?  key}): super(key: key);
+  final String smileyFace;
+
+  const SmileyFace({
+    Key?  key, 
+    required this.smileyFace,
+
+  }):
+ super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -13,9 +20,15 @@ class SmileyFace extends StatelessWidget {
           color: Colors.blue[600],
       ),
         padding: EdgeInsets.all(12),
-        child: Text(
-            "Smiley Emoji"
-        ),
+        child: Center(
+          child: Text(
+            smileyFace,
+            style: TextStyle(
+              fontSize: 18,
+            ),
+          ),
+        )
+       
     );
     
   }
