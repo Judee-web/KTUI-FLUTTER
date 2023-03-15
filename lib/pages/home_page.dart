@@ -102,7 +102,45 @@ class _HomePageState extends State<HomePage> {
                   )
                 ],
               ),
+            ),
+
+            //Text Goes Here
+            SizedBox(
+              height: 20,
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Text(
+              'How is your day?',
+              style: TextStyle(
+              color: Colors.white,
+              fontSize: 18,
+              fontWeight: FontWeight.bold,
+
+              ),
+            ),
+            Icon(
+              Icons.more_horiz,
+              color: Colors.white,
             )
+              ],
+              
+
+            ),
+
+            SizedBox(
+              height: 25,
+            ),
+            //smileyEmogji goes here
+            Row(
+              children: [
+                
+              ],
+            )
+
+            
+
           ],
 
         )
