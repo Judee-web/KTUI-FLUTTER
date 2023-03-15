@@ -7,7 +7,7 @@ List of the features that your application provides. Coming Soon
 Getting Started
 <h2>Sample Image of the app in progress</h>
 <div>
-<img src="assets/images/image1.png" height="300px" width="300px" alt="flutter_app"/>
+<img src="assets/images/image1.png" height="700px" width="300px" alt="flutter_app"/>
 </div>
 Usage
 How to use your application, including any user interfaces, dashboards, or command line interfaces.
