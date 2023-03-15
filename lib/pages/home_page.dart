@@ -1,5 +1,5 @@
 
-// ignore_for_file: prefer_const_constructors
+// ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables
 
 import 'package:flutter/material.dart';
 
@@ -18,12 +18,13 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromARGB(255, 37, 146, 236),
+      backgroundColor: Colors.blue[800],
       body:SafeArea(
         child: Padding(
           padding: const EdgeInsets.all(25.0),
           child: Column(
           children: [
+            //Greetings Row
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
@@ -38,9 +39,13 @@ class _HomePageState extends State<HomePage> {
                   color: Color.fromARGB(255, 255, 251, 251)
                 )),
 
+               SizedBox(
+                height: 8,
+               ),
+
               Text(
                 '16 March, 2023',
-                style: TextStyle(color: Colors.blue[200]),
+                style: TextStyle(color: Color.fromARGB(255, 161, 206, 243)),
               ),
 
              
@@ -65,10 +70,44 @@ class _HomePageState extends State<HomePage> {
 
 
               ]
+            ),
+
+            SizedBox(
+              height: 20,
+            ),
+
+            //SearchBar Row
+            Container(
+              decoration: BoxDecoration(
+                color: Colors.blue[600],
+                borderRadius: BorderRadius.circular(12),
+
+              ),
+              padding: EdgeInsets.all(12),
+              child: Row(
+                children: [
+                  Icon(
+                    Icons.search,
+                    color: Colors.white,
+
+                  ),
+                  SizedBox(
+                    width: 5,
+                  ),
+                  Text(
+                    'Search Here',
+                    style: TextStyle(
+                      color: Colors.white,
+                    ),
+                  )
+                ],
+              ),
             )
           ],
 
-      )))
+        )
+      )
+    )
         
      
      
