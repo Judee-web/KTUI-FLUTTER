@@ -34,10 +34,7 @@ class _HomePageState extends State<HomePage> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                      Text(
-
                   'Hello, John!',
-
-                 
 
                   style: TextStyle(
                   fontSize: 24,
@@ -141,7 +138,6 @@ class _HomePageState extends State<HomePage> {
             //smileyEmogji goes here
             
             Row(
-          
 
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
