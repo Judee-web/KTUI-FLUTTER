@@ -5,8 +5,11 @@ Features
 List of the features that your application provides. Coming Soon
 
 Getting Started
-Instructions for how to sign up and start using your application.
-
+<h2>Sample Image of the app in progress</h2>
+<br>
+<div>
+<img src="assets/images/image1.png" height="700px" width="300px" alt="flutter_app"/>
+</div>
 Usage
 How to use your application, including any user interfaces, dashboards, or command line interfaces.
 
