@@ -2,7 +2,7 @@
 
 KTUI is a cutting-edge software as a service (SaaS) app that is designed to streamline communication and collaboration between businesses and customers. The app is built on the latest cloud-based technology and is designed to work seamlessly across desktop and mobile devices.
 
-Ongoing Development 
+Project is Ongoing in development.
 
 Beta
 
